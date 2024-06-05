@@ -1,0 +1,32 @@
+.animated-text {
+  animation: fadeInOut 2s infinite;
+  text-align: center; /* Center-align the text */
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.details-section {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+.button-gradient {
+
+  color: white;
+  width: 190px;
+  height: 60px;
+  border: 1px solid peachpuff;
+  background-color: none;
+  transition: background 0.3s;
+}
+
+.button-gradient:hover {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
